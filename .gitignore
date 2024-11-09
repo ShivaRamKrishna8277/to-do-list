@@ -1,0 +1,29 @@
+# Ignore the virtual environment folder
+to-do-list-env/
+.venv/
+v/
+
+# Ignore any other temporary or log files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore any database files (if applicable)
+*.db
+
+# Ignore node_modules if your project has frontend dependencies
+node_modules/
+
+# Do not ignore all files by default
